@@ -23,10 +23,11 @@ body{
 #calc{
     width: 350px;
     padding: .9em;
+    border: 5px solid #d10909ce;
     background-color:#ffff;
     color: #292929;
     border-radius: 10px 0px;
-    box-shadow: 10px 10px 1px #ffffff2f;
+    box-shadow: 10px 10px 1px #ffffff09;
     flex-direction: column;
     
 }
@@ -34,10 +35,14 @@ body{
     font-size: .8em;
     font-weight: 300;
     color: #141414;
+    border-radius: 10px 0px;
     
 }
 #opera{
     text-align: right;
+    background-color:#ff000085 ;
+    margin: 10px;
+    border-radius: 0px 10px;
 }
 #previo{
     color: #00000083;
@@ -64,31 +69,31 @@ body{
     height: 4em;
     font-size: 1.2em;
     color: white;
-    background-color: #E01673;
+    background-color: #fd2d2d;
     cursor: pointer;
 }
 #butao-con .numero{
     background-color: #ffff;
-    color: #111111;
+    color: #555555;
 }
 #butao-con .numero:hover{
-    background-color: #e0167438;
-    color: #4b4b4b;
+    background-color: #58585838;
+    color: #000000;
     transition: ease 0.2s;
 }
 #butao-con button:hover{
-    background-color: #e0167479;
+    background-color: #ca2525;
     color: #ffff;
     transition: ease 0.2s;
 }
 #butao-con #egual{
     grid-column: span 2;
-    color: black;
-    background-color: #293f55;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
 }
 #butao-con #egual:hover{
     grid-column: span 2;
-    background-color: #15202ba6;
+    background-color: #6d6d6d;
     color: #ffffff;
     transition: ease 0.2s;
 }
