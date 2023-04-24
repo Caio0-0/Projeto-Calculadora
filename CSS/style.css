@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*
+cores:
+#E01673
+#15202b
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    background-color: #15202b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+
+#calc{
+    width: 400px;
+    padding: .9em;
+    background-color:#ffff;
+    color: #292929;
+    border-radius: 10px 0px;
+    box-shadow: 10px 10px 1px #ffffff2f;
+    flex-direction: column;
+    
+}
+#calc h3{
+    font-size: .8em;
+    font-weight: 300;
+    color: #141414;
+    
+}
+#opera{
+    text-align: right;
+}
+#previo{
+    color: #00000083;
+    padding: .2em;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+}
+#corrent{
+    min-height: 1.6em;
+    font-size: 1.7em;
+    font-weight: 700;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+}
+#butao-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr;
+    gap: 3px;
+}
+
+#butao-con button{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 4em;
+    font-size: 1.2em;
+    color: white;
+    background-color: #E01673;
+    cursor: pointer;
+}
+#butao-con .numero{
+    background-color: #ffff;
+    color: #111111;
+}
+#butao-con .numero:hover{
+    background-color: #e0167438;
+    color: #4b4b4b;
+    transition: ease 0.2s;
+}
+#butao-con button:hover{
+    background-color: #e0167479;
+    color: #ffff;
+    transition: ease 0.2s;
+}
+#butao-con #egual{
+    grid-column: span 2;
+    color: black;
+    background-color: #293f55;
+}
+#butao-con #egual:hover{
+    grid-column: span 2;
+    background-color: #15202ba6;
+    color: #ffffff;
+    transition: ease 0.2s;
+}
+
